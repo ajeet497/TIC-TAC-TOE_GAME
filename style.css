@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+     overflow: hidden;
+}
+
+h1 {
+    background-color: rgb(120, 197, 20);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: clamp(2rem, 5vw, 4rem);
+}
+
+.game_box {
+    width: min(90vw, 60vh, 600px);
+    height: min(90vw, 60vh, 600px);
+    background-color: rgba(149, 0, 255, 0.541);
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.first {
+    width: 33.3333%;
+    height: 33.3333%;
+
+    background-color: aqua;
+    border: 1px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-size: clamp(3rem, 15vw, 10em);
+    margin: 0;
+}
+h2 {
+    background-color: rgb(20, 144, 197);
+    padding: 5px;
+    border-radius: 5px;
+    font-size: clamp(1rem, 2vw, 3rem);
+}
+#winnerVideo {
+    display: none;
+    width: min(90vw, 600px);
+    max-height: 60vh;
+}
+.creator {
+    font-size: 12px;
+    margin-top: 10px;
+    opacity: 0.6;
+}
